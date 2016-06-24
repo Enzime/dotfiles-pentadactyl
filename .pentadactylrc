@@ -1,0 +1,21 @@
+set complete=search,location
+
+map , <Leader>
+
+nmap <C-j> <Nop>
+
+nmap <Leader>R -js dactyl.windows.forEach(function(win) {win.dactyl.modules.io.source('~/.pentadactylrc')});
+nmap -builtin <C-s> <C-u>
+
+nmap -builtin <C-a> gT
+nmap -builtin <C-f> gt
+nmap -builtin <C-h> gT
+nmap -builtin <C-l> gt
+
+imap -builtin <C-a> <Esc>gT
+imap -builtin <C-f> <Esc>gt
+imap -builtin <C-h> <Esc>gT
+imap -builtin <C-l> <Esc>gt
+
+map gT <Nop>
+map gt <Nop>
