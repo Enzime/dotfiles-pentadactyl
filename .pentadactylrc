@@ -7,6 +7,8 @@ nmap <C-j> <Nop>
 nmap <Leader>R -js dactyl.windows.forEach(function(win) {win.dactyl.modules.io.source('~/.pentadactylrc')});
 nmap -builtin <C-s> <C-u>
 
+map c b
+
 nmap -builtin <C-a> gT
 nmap -builtin <C-f> gt
 nmap -builtin <C-h> gT
