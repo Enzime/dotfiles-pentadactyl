@@ -4,6 +4,7 @@ map , <Leader>
 
 nmap <C-j> <Nop>
 
+nmap <Leader>E :sil !tvim --floating ~/.pentadactylrc &<CR>
 nmap <Leader>R -js dactyl.windows.forEach(function(win) {win.dactyl.modules.io.source('~/.pentadactylrc')});
 nmap -builtin <C-s> <C-u>
 
@@ -19,5 +20,13 @@ imap -builtin <C-f> <Esc>gt
 imap -builtin <C-h> <Esc>gT
 imap -builtin <C-l> <Esc>gt
 
+nmap -builtin A H
+nmap -builtin F L
+
+map <C-q> <Nop>
+
 map gT <Nop>
 map gt <Nop>
+
+map H <Nop>
+map L <Nop>
