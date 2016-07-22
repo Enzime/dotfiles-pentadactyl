@@ -21,6 +21,7 @@ imap -builtin <C-h> <Esc>gT
 imap -builtin <C-l> <Esc>gt
 
 nmap -builtin A H
+nmap -builtin S F
 nmap -builtin F L
 
 map <C-q> <Nop>
@@ -30,3 +31,5 @@ map gt <Nop>
 
 map H <Nop>
 map L <Nop>
+
+nmap -builtin ZQ ZZ
