@@ -17,8 +17,14 @@ nmap -builtin <C-l> gt
 
 imap -builtin <C-a> <Esc>gT
 imap -builtin <C-f> <Esc>gt
-imap -builtin <C-h> <Esc>gT
-imap -builtin <C-l> <Esc>gt
+
+imap -builtin <C-h> <C-Left>
+imap -builtin <C-l> <C-Right>
+
+cmap -builtin <C-h> <C-Left>
+cmap -builtin <C-j> <Down>
+cmap -builtin <C-k> <Up>
+cmap -builtin <C-l> <C-Right>
 
 nmap -builtin A H
 nmap -builtin S F
